@@ -20,7 +20,7 @@ header.textContent = "Hello World";
 var pStyles = document.querySelectorAll ('.p-styles');
 console.log(pStyles);
 
-//.lenght tells you how many elements are contained in that array
+//.length tells you how many elements are contained in that array
 for (var i = 0; i < pStyles.length; i++) {
   pStyles[i].textContent = "I'm p-Styles " + (i + 1);
 }
@@ -51,5 +51,5 @@ for (var i = 0; i < awesomes.length; i++) {
 var h3s = document.getElementsByTagName('h3');
 
 for (var i = 0; i < h3s.length; i++) {
-  h3s[i].textContent = "Kurt is mean " + (i +1);
+  h3s[i].textContent = "JavaScript is awesome " + (i +1);
 }
